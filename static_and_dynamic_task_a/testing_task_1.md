@@ -11,7 +11,7 @@
 require_relative('card.rb')
 class CardGame
 
-  # As this is a class method, it should be called upon the class "self.checkforace". A method should also be in lowercase - i.e. "checkforace"
+  # As this is a class method, it should be called upon the class "self.checkforace". A method should also be in lowercase, and ideally with underscores separating the words so it is clearer to read - i.e. "check_for_ace"
   def checkforAce(card)
     # To check of the card's value is equal to 1, "==" must be used to compare the values
     if card.value = 1

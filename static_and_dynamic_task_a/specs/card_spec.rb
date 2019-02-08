@@ -13,12 +13,12 @@ class TestCardGame < MiniTest::Test
     @card4 = Card.new("diamonds", 5)
   end
 
-  def test_checkforace__return_true
-    assert_equal(true, CardGame.checkforace(@card1))
+  def test_check_for_ace__return_true
+    assert_equal(true, CardGame.check_for_ace(@card1))
   end
 
-  def test_checkforace__return_false
-    assert_equal(false, CardGame.checkforace(@card2))
+  def test_check_for_ace__return_false
+    assert_equal(false, CardGame.check_for_ace(@card2))
   end
 
   def test_highest_card__return_card2

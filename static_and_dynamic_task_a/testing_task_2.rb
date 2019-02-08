@@ -6,7 +6,7 @@
 require_relative('card.rb')
 class CardGame
 
-  def self.checkforace(card)
+  def self.check_for_ace(card)
     if card.value == 1
       return true
     else
